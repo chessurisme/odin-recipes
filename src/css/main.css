@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+.container {
+  background-image: url("../images/cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100dvh;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emoji {
+  text-align: center;
+  font-size: 5rem;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+h1, h2 {
+  font-family: Inconsolata, serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "🥚"; /* Set the content to the emoji */
+  display: inline-block;
+  margin-right: 8px; /* Adjust spacing between the emoji and the list item text */
+}
