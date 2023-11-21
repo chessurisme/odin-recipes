@@ -65,7 +65,11 @@ h1, h2 {
 }
 
 ul li::before {
-  content: "🥚"; /* Set the content to the emoji */
+  content: "🥚"; 
   display: inline-block;
-  margin-right: 8px; /* Adjust spacing between the emoji and the list item text */
+  margin-right: 8px; 
+}
+
+img {
+  border-radius: 15px;
 }
